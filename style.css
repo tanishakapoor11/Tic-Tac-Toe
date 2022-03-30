@@ -1,0 +1,75 @@
+body{
+    font-family: Arial Rounded MT;
+    background: linear-gradient(to right, #fd7f96,#f7807a,#ce609b,#7c5cdb);
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0px;
+    margin: 10px auto;
+    background-color: #272727;
+    border-radius: 15px;
+}
+
+table tr td{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+table tr td:hover{
+    background: #2c3531;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.but{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    background-color: #272727;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    left: 50.1%;
+    top: 80%;
+}
+
+.but:hover{
+    color: #3FC80E
+}
+
+.text{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+}
+
+.shift{
+    top: 50%;
+    left:50%;
+    transform: translate(1%,100%);
+}
+
+.text1{
+    text-align:center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-45%,200%);
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
